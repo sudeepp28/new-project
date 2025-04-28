@@ -4,7 +4,7 @@ import { TicketComponent } from "./ticket/ticket.component";
 
 @Component({
   selector: 'app-tickets',
-  imports: [NewTicketComponent, TicketComponent],
+  imports: [NewTicketComponent, ],
   templateUrl: './tickets.component.html',
   styleUrl: './tickets.component.css'
 })
